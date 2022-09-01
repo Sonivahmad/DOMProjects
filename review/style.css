@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+   margin:0;
+   padding: 0;
+}
+.nav{
+    background-color: aquamarine;
+    height: 50px;
+    max-width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:larger;
+    font-weight: bolder;
+    line-height: 40px;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 750px;
+    border-radius:30px;
+   
+   
+}
+#image{
+    height: 240px;
+    width: 240;
+    border: 1px solid black;
+    border-radius:300px;
+}

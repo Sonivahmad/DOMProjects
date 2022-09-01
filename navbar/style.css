@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .margin{
+      margin-left: 6px;
+      
+      color: hsl(211, 39%, 23%);
+      font-size: 1rem;
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     display: block;
+     padding: 0.5rem 1rem;
+  }
+  ul{
+      list-style-type:none;
+  }
+  a{
+      text-decoration:none;
+  }
+  li{
+      display: inline-block;
+      list-style: none;
+  }
+  #coding{
+      color:black ;
+      font-weight: bolder;
+      font-size: xx-large;
+      height: 40px;
+  }
+  #addict{
+      color: lightblue;
+      font-weight: bolder;
+      font-size: xx-large;
+      margin-left: 6px;
+      height: 40px;
+  }
+  nav{
+      background-color:lightgoldenrodyellow ;
+  
+      
+      
+  }
+  .ul{
+      display: flex;
+      align-items: center;
+      
+      justify-items: baseline;
+      
+  }
+  .containerOfUl{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+  }
+  main {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+    .nav-toggle {
+      font-size: 1.5rem;
+      color: var(--clr-primary-5);
+      background: transparent;
+      border-color: transparent;
+      
+      cursor: pointer;
+    }
+    .nav-toggle:hover {
+      color: lightcoral;
+      transform: rotate(90deg);
+     
+    }
+  
+    .links a {
+      
+      display: block;
+      padding: 0.5rem 1rem; 
+     
+    }
+    .links a:hover {
+      background:hsl(205, 86%, 81%) ;
+      color: hsl(205, 78%, 60%);
+      padding-left: 1.5rem;
+    }
+    .links {
+      /* height: 50px;  */
+      /* overflow: hidden;  */
+  }
+      
+    
+      
+    .links {
+      height:auto; 
+       /* display: flex; */
+       visibility: hidden;
+    }
+    .links a {
+      padding: 0;
+      margin: 0 0.5rem;
+    }
+    .show-links {
+      /* height: 10rem; */
+      height: auto; 
+       display: flex;
+       /* flex-direction: column; */
+      /* visibility: visible; */
+    }
+  
+    .links a:hover {
+      padding: 0;
+      background: transparent;
+    }
+    .social-icons {
+      display: none;
+      /* display: flex */
+    }
+    .social-icons {
+      display: flex;
+    }
+    .social-icons a {
+      margin: 0 0.5rem;
+      color: lightblue;
+      transition: 0.5ms;
+    }
+    .social-icons a:hover {
+      color: var(--clr-primary-7);
+    }
+    .social-icons a:hover {
+      color: lightcoral;
+    }
