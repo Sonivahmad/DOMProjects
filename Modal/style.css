@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(5, 117, 192);
+}
+.header{
+    border: 1px solid rgb(91, 165, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+   .outer-container{
+       border: 1px solid rgb(25, 245, 17);
+       background-color: rgb(21, 110, 187);
+       width: 400px;
+       height: 300px;
+   }
+   .inner-container{
+       position: absolute;
+       background-color: rgb(169, 3, 211);
+       width: 400px;
+       height: 200px;
+       visibility: hidden;
+   
+   }
+   .close-button{
+       position: absolute;
+       right: 0;
+       top: 0;
+       background-color: aqua;
+   }
+       
+   .show-box{
+       
+       visibility: visible;
+    
+   } 
