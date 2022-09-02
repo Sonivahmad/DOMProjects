@@ -37,12 +37,13 @@ let movieMain = document.getElementById("main");
 function add(event) {
   event.preventDefault();
   let name = document.getElementById("movie-name").value;
-  let link = document.getElementById("poster-image-link").value;
-  let category = document.getElementById("select").value;
   let trailerLink = document.querySelector("#trailer-link").value;
   let actor = document.querySelector("#actor-name").value;
   let director = document.querySelector("#director-name").value;
   let rating = document.getElementById("imdb-rating").value;
+  let link = document.getElementById("poster-image-link").value;
+  let category = document.getElementById("select").value;
+  
 
   let object = {
     head1: name,

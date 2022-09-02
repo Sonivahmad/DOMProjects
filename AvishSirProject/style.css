@@ -189,9 +189,9 @@
   }
   
   #sort {
-    background: #3498db;
+    background: #e7b324;
     border-radius: 15px;
-    font-family: Arial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 11px 20px;
@@ -199,9 +199,9 @@
   }
   
   #sort:hover {
-    background: #3cb0fd;
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    background: #0be6d3;
+    background-image: -o-linear-gradient(top, #8ec019, #91e047);
+    background-image: linear-gradient(to bottom, #c7568e, #e42ceb);
     text-decoration: none;
   }
   
