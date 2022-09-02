@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: violet;
+}
+.container{
+    text-align: center;
+}
+#value{
+    font-size: 6rem;
+    font-weight: bold;
+}
+.btn{
+    padding: 10px 16px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+    border-radius: 10px;
+}
+.btn:hover{
+    color:rgb(82, 7, 97);
+    background-color: rgb(2, 10, 26);
+    border: none;
+}
