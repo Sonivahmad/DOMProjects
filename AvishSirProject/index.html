@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e35ffbd1aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+          <a href="#" class="sidebar">Click Me</a>
+        </div>
+      </header>
+  
+      <main>
+        <section class="main">
+              <div class="main-content">
+      
+        <section>
+          <div class="modal-container">
+            <button class="close-btn">close</button>
+            <div class="modal-content">
+              <div class="text-area">
+                <form action="AddForm">
+                  <h1>Movie Information</h1><br>
+                  <input type="text" name="" id="movie-name" placeholder="Enter Movie Name"><br>
+                  <input type="url" name="" id="poster-image-link" placeholder="Enter Movie Img Link"><br>
+                  <select id="select"><br>
+                      <option value="Action">Action</option>
+                      <option value="Horror">Horror</option>
+                      <option value="Comedy">Comedy</option>
+                      <option value="Adventure">Adventure</option>
+                      <option value="Science-fiction">Science-fiction</option>
+                      <option value="Documentary">Documentary</option>
+                      <option value="Crime">Crime</option>
+                  </select><br>
+                  <input type="url" name="" id="trailer-link" placeholder="Enter Trailer Link"><br>
+                  <input type="text" name="" id="actor-name" placeholder="Enter Actor Name"><br>
+                  <input type="text" name="" id="director-name" placeholder="Director Name"><br>
+                  <input type="text" name="" id="imdb-rating" placeholder="Enter IMDB Rating"><br>
+                  <button type="submit" id="submitbtn">search<br>
+                  </button>
+              </form>
+                <button type="button" class="btn">Submit
+                </button>
+        <div>
+            <div class="navbar">
+
+                <button id="sort">Sort</button>
+                <select id="filter">
+                    <option value="Action">Action</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Science-fiction">Science-fiction</option>
+                        <option value="Documentary">Documentary</option>
+                        <option value="Crime">Crime</option>
+                </select>
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <script src="app.js"></script>
+</body>
+</html>
