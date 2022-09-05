@@ -1,4 +1,3 @@
-
 const openBtn = document.querySelector(".sidebar");
 
 const container = document.querySelector(".modal-container");

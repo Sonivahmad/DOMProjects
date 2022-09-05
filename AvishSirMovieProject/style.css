@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: white;
+  }
+  
+  .header{
+    background-color: #3c3c3c;
+    padding: 10px;
+  }
+  
+  .open-btn{
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+  background-color: #ff9d42;
+  font-weight: bold;
+  }  
+
+  /* model */
+  /* .task-modal{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  background-color: #1c3636;
+  box-shadow: 2px 3px 3px #817e7e;
+  visibility: hidden;
+  display: none;
+  z-index: -1;
+  } */
+  .task-modal{
+      margin: 170px;
+      margin-left: 500px;
+      width: 700px;
+      /* height: 800px; */
+      position: relative;
+      background-color: #a50b0b;
+      display: none;
+      color: #ff9d42;
+  }
+  .done-btn{
+    width: 100%;
+  padding: 20px;
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(89, 156, 13);
+  border: none;
+  outline: none;
+  background: transparent;
+  }
+  .close-btn{
+      position: absolute;
+      top: 0.2em;
+      right: 0.2em;
+      font-size: 1.5rem;
+      color: black;
+      cursor: pointer;
+  }
+  /* .done-btn{
+      position: absolute;
+      display: inline-block;
+      bottom: 0;
+      left: 50%;
+      padding: 0.6em 1em;
+      background-color: #a21bd8;
+      border: none;
+      cursor: pointer;
+      border-radius: 25px;
+      color: black;
+      font-weight: bold;
+      margin-bottom: 20px;
+  } */
+  input{
+      height: 50px;
+  }
+  .flex-direction{
+      flex-direction: column;
+  }
+  #container{
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 1em;
+      background-color: blueviolet;
+      color: #a50b0b;
+  }
+  .blur {
+      filter: blur(3px);
+  }
+  select{
+      height: 50px;
+  }
+  button{
+      height: 50px;
+      font-weight: 500;
+  }
+  .cancel-btn{
+      position: absolute;
+  }
+  h4 {
+      letter-spacing: var(--spacing);
+      text-transform: capitalize;
+      line-height: 1.25;
+      margin-bottom: 0.75rem;
+      font-family: var(--ff-primary);
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+    }
+    h4 {
+      font-size: 0.875rem;
+    }
+    @media screen and (min-width: 800px) {
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 2.5rem;
+      }
+      h3 {
+        font-size: 1.75rem;
+      }
+      h4 {
+        font-size: 1rem;
+      }
+
+      body {
+        font-size: 1rem;
+      }
+      h1,
+      h2,
+      h3,
+      h4{
+        line-height: 1;
+      }
+    }
+    .photo {
+      object-fit: cover;
+      height: 200px;
+      border: 0.25rem solid var(--clr-gold);
+      border-radius: var(--radius);
+    }
+    h1,h2,h3{
+      font-size: 20px;
+    }
+    .inlineBlock{
+      display: inline-block;
+    }
